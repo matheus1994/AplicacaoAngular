@@ -3,12 +3,14 @@
   <h1>Lista de Produtos</h1> 
 
   <!-- Campo para adicionar nova tarefa --> 
+ <div class="product-group>"
   <input 
     type="text" 
     [(ngModel)]="novoProduto" 
     placeholder="Adicionar um novo produto" 
     class="product-input"
     /> 
+  </div>
 
    <!-- Botão para adicionar tarefa -->
    <button (click)="addProduto()" class="add-btn">Adicionar</button> 
